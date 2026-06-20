@@ -1,7 +1,8 @@
 # esphomeM702B
 Esphome library for reading out the M702B air quality sensor
+Includes STL files for 3D printing a case.
 
-STL files for 3D printing a case.
+![1](images/IMG-20260614-WA0001.jpeg)
 
 # Hardware:
 
