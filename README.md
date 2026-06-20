@@ -4,7 +4,7 @@ Includes STL files for 3D printing a case.
 
 ![1](images/IMG-20260614-WA0001.jpeg)
 
-# Hardware:
+# Hardware
 
 M702B Air quality sensor.
 https://amzn.to/4eAWg3c
@@ -14,6 +14,10 @@ https://amzn.to/4awBYXJ
 
 # YAML
 ```
+external_components:
+  - source: github://dirixmjm/esphomeM702B
+    components: [air_quality_sensor]
+
 sensor:
   - platform: air_quality_sensor
     average: 10
